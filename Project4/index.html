@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Summary Card - ProjectsByDailyreadingAdmin</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+    .font{
+      font-family: 'Red Hat Display', sans-serif;
+    }
+    .font1{
+      font-weight: 900;
+    }
+    </style>
+</head>
+<body class="bg-[#E0E9FE]">
+ <img src="images/pattern-background-desktop.svg" alt="background image" class="hidden md:block w-[100vw] absolute top-0 -z-10">
+ <img src="images/pattern-background-mobile.svg" alt="background image" class="md:hidden w-[100vw]  absolute top-0 -z-10">
+ <div class="flex justify-center items-center h-[100vh] flex-col">
+    <img src="images/illustration-hero.svg" class="w-80 rounded-t-2xl" alt="hero">
+    <div class="bg-white h-[20rem] w-80 rounded-b-2xl">
+      <h1 class="text-2xl text-gray-600 font font1 text-center mt-12">Order Summary</h1>
+      <p class="my-2 text-gray-400 text-center text-xs px-12">You can now listen to millions of songs, audiobooks, and podcasts on any device
+        anywhere you like!</p>
+        <div class="bg-gray-50 w-64 h-16 m-auto rounded-xl flex">
+          <img src="images/icon-music.svg" class="m-3" alt="music icon">
+          <div class="flex flex-col py-2">
+            <h3 class="text-sm font py-1 font-bold text-gray-600">Annual Plan</h3>
+            <p class="text-xs font text-gray-500">$59.99/year</p>
+          </div>
+          <span class="cursor-pointer text-xs font ml-auto mt-6 mr-3 font-medium text-blue-800 underline hover:no-underline" >Change</span>
+        </div>
+        <div class="flex justify-center my-4">
+        <button class="shadow bg-[#392BE1] hover:bg-[#766CF1] w-60 h-9 rounded-lg text-white font-medium text-xs duration-200	">Proceed to Payment</button>
+      </div>
+      <p class="flex justify-center text-xs text-gray-600 hover:text-black cursor-pointer my-5 font-medium">Cancel Order</p>
+    </div>
+ </div>
+
+  <script>
+    alert('This project is part of my personal portfolio. Visit my portfolio at www.dailyreading.ml')
+  </script>
+</body>
+</html>

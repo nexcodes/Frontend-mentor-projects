@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Huddle landing page with single introductory section - ProjectsByDailyreadingAdmin</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+    .bg {
+      background-color: hsl(257, 40%, 49%);
+    }
+
+    .text {
+      color: hsl(257, 40%, 49%);
+    }
+
+    .text2 {
+      color: hsla(0, 0%, 100%, 0.7);
+    }
+
+    .font {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .font1 {
+      font-family: 'Poppins', sans-serif;
+    }
+    .grid2{
+      display: grid;
+      grid: "a a  b" "a a b" "a a b";
+    }
+    .item-a{
+      grid-area: a;
+    }
+    .item-b{
+      grid-area: b;
+    }
+  </style>
+</head>
+
+<body class="bg">
+  <nav>
+    <img src="images/logo.svg" alt="logo" class="p-6 w-48 md:w-56">
+  </nav>
+  <main>
+    <picture>
+      <source srcset="images/bg-mobile.svg" media="(max-width:768px)">
+      <img src="images/bg-desktop.svg" alt="background image" class="absolute top-0 left-0 -z-10 w-[100vw] h-[100vh]">
+    </picture>
+    <section class="grid2">
+    <img src="images/illustration-mockups.svg" alt="mockup" class="p-8 item-a">
+    <div class="item-b items-center mt-12">
+      <h1 class="text-white text-2xl md:text-3xl md:w-96 text-center md:text-left mx-12 my-4 font1 font-bold">Build The Community Your Fans Will Love
+      </h1>
+      <p class="text2 text-sm text-center md:text-left md:w-96 mx-12 my-4 font1 font-normal">Huddle re-imagines the way we build communities.
+        You have a voice, but so does your audience. Create connections with your users as you engage in genuine
+        discussion.</p>
+        <button
+        class="p-3 md:p-5 my-2 rounded-full bg-white text text-xs mx-auto md:mx-12 w-48 block font font-normal">Register</button>
+      </div>
+    </section>
+  </main>
+  <footer class=" mt-16 mb-4 flex justify-center md:absolute md:bottom-0 md:right-0">
+    <img src="images/instagram.svg" alt="instagram logo" class="p-2 mx-2 w-10 h-auto border border-white rounded-full">
+    <img src="images/social-facebook.svg" alt="instagram logo" class="p-2 mx-2 w-10 h-auto border border-white rounded-full">
+    <img src="images/twitter.svg" alt="instagram logo" class="p-2 mx-2 w-10 h-auto border border-white rounded-full">
+  </footer>
+  <!-- <script>
+    alert('This project is part of my personal portfolio. Visit my portfolio at www.dailyreading.ml')
+  </script> -->
+</body>
+
+</html>

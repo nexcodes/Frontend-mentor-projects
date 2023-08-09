@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-column preview card component - ProjectsByDailyreadingAdmin</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+    .font{
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+    }
+    .font1{
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+    }
+    .text-light-white{
+      color:hsla(0, 0%, 100%, 0.75)
+    }
+    </style>
+
+</head>
+<body class="bg-[#F3F2F3]">
+  <main>
+    <section class="flex flex-col md:flex-row justify-center items-center md:h-[100vh] my-8">
+      <div class="bg-[#E38425] h-auto w-80 rounded-t-lg md:rounded-t-none md:rounded-l-lg p-12">
+        <img src="images/icon-sedans.svg" alt="sedans" class="">
+        <h2 class="p-1 my-5 font text-white text-3xl">SEDANS</h2>
+        <p class="font1 p-1 leading-5 pr-10 my-2 text-light-white text-xs">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+        <button class="bg-white text-[#E38425] hover:text-white hover:bg-[#E38425] border-white border-2 font1 rounded-3xl text-xs p-2 px-4 my-4">Learn more</button>
+      </div>
+      <div class="bg-[#006973] h-auto w-80 p-12">
+        <img src="images/icon-suvs.svg" alt="sedans" class="">
+        <h2 class="p-1 my-5 font text-white text-3xl">SUVS</h2>
+        <p class="font1 p-1 leading-5 pr-10 my-2 text-light-white text-xs">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+        <button class="bg-white text-[#006973] hover:text-white hover:bg-[#006973] border-white border-2 font1 rounded-3xl text-xs p-2 px-4 my-4">Learn more</button>
+      </div>
+      <div class="bg-[#01403E] h-auto w-80 rounded-b-lg md:rounded-b-none md:rounded-r-lg p-12">
+        <img src="images/icon-luxury.svg" alt="sedans" class="">
+        <h2 class="p-1 my-5 font text-white text-3xl">LUXURY</h2>
+        <p class="font1 p-1 leading-5 pr-10 my-2 text-light-white text-xs">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+        <button class="bg-white text-[#01403E] hover:text-white hover:bg-[#01403E] border-white border-2 font1 rounded-3xl text-xs p-2 px-4 my-4">Learn more</button>
+      </div>
+    </section>
+  </main>
+  <script>
+    alert('This project is part of my personal portfolio. Visit my portfolio at www.dailyreading.ml')
+  </script>
+</body>
+</html>

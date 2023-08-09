@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg{
+  background-color: hsl(0, 93%, 68%);
+}
+.font{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.text1{
+  color: hsl(0, 36%, 70%);
+}
+.text2{
+  color: hsl(0, 6%, 24%);
+}
+
+.btn{
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: -120px -120px, 0 0;
+  background: linear-gradient(45deg, white , pink , hsl(0, 93%, 68%));
+  background-size: 250% 250%, 100% 100%;
+}

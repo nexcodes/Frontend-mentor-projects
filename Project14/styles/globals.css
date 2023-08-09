@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+.font{
+  font-family: 'Manrope', sans-serif;
+}
+
+.bg{
+  background-color: hsl(210, 46%, 95%);
+}
+
+.popover-arrow__arrow {
+  /* Size */
+  z-index: -10;
+  height: 1rem;
+  width: 2rem;
+
+  background-color: rgb(55 65 81 / 1 );
+  position: absolute;
+}
+
+.popover-arrow__arrow--bc {
+  /* Position at the bottom center */
+  bottom: -0.5rem;
+  left: 50%;
+
+  /* Border */
+  border-bottom: 1px solid rgb(55 65 81 / 1 );
+  border-right: 1px solid rgb(55 65 81 / 1 );
+  transform: translate(-50%, -50%) rotate(45deg);
+}

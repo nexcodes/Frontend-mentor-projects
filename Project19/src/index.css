@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background-color: black; */
+}
+@font-face {
+  font-family: plus-bold;
+  src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf');
+}
+@font-face {
+  font-family: plus-medium;
+  src: url('./assets/fonts/static/PlusJakartaSans-Medium.ttf');
+}
+
+.fam-bold{
+font-family: plus-bold;
+}
+
+.fam-medium{
+  font-family: plus-medium;
+}
+.z{
+  color: #5e6778;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <title>NFT preview card component - ProjectsByDailyreadingAdmin</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+    .font{
+      font-family: 'Outfit', sans-serif;
+    }
+    .shadow-own{
+      --tw-shadow: 0 20px 25px rgb(13, 27, 44), 0 8px 10px -6px rgba(13, 27, 44);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(13, 27, 44)), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+  </style>
+</head>
+<body class="bg-[#0D1B2C] flex justify-center items-center h-[100vh]">
+  <div class="bg-[#14253D] w-64 h-[27rem] rounded-lg shadow-own">
+    <div class="p-4">
+      <img class="rounded-lg" src="images/image-equilibrium.jpg" alt="">
+      <h2 class="text-white text-md font font-medium my-2 p-[0.2rem] ">Equilibrium #3429</h2>
+      <p class="leading-4 font my-1 text-xs px-[0.2rem] text-gray-400">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="flex mt-4 justify-between">
+        <div class="inline-flex">
+          <img class="p-[0.2rem] h-[20px] w-[14px]" src="images/icon-ethereum.svg" alt="">
+          <p class="text-cyan-400 ml-[0.2rem] text-sm font-semibold">0.041 ETH</p>
+        </div>
+        <div class="inline-flex">
+          <img class="p-[0.2rem] h-[20px] w-[20px]" src="images/icon-clock.svg" alt="">
+          <p class="text-gray-400 ml-[0.1rem] text-sm font-semibold">3 days left</p>
+        </div>
+      </div>
+      <hr class=" border-gray-700 h-[0.1px] mx-1 my-3">
+      <div class="flex">
+        <img class="rounded-[9999px] border border-white w-8" src="images/image-avatar.png" alt="">
+        <p class="mt-2 text-gray-400 ml-2 text-xs font-base">Creation of <span class="text-white">Jules Wyvern</span></p>
+      </div>
+    </div>
+  </div>
+  <script>
+    alert('This project is part of my personal portfolio. Visit my portfolio at www.dailyreading.ml')
+  </script>
+</body>
+</html>

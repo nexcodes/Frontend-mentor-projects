@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Single Price Grid Component - ProjectsByDailyreadingAdmin</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+    .font {
+      font-family: 'Karla', sans-serif;
+    }
+
+    .font4 {
+      font-weight: 400;
+    }
+
+    .font7 {
+      font-weight: 700;
+    }
+
+    .yellow {
+      color: hsl(71, 73%, 54%);
+    }
+
+    .yellowbg {
+      background-color: hsl(71, 73%, 54%);
+    }
+
+    .blue {
+      color: hsl(179, 62%, 43%);
+    }
+
+    .bg {
+      background-color: hsl(204, 43%, 93%);
+    }
+
+    .gray {
+      color: hsl(218, 22%, 67%)
+    }
+
+    .gray2 {
+      color: hsl(204, 43%, 93%)
+    }
+
+    .bluebg {
+      background-color: hsl(179, 62%, 43%);
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        display: grid !important;
+        grid-template-columns: 2fr 1fr ;
+        grid-template-rows: auto;
+        grid-template-areas:
+          "a a"
+          "b c"
+      }
+
+      .item-a {
+        grid-area: a;
+      }
+
+      .item-b {
+        grid-area: b;
+      }
+      .item-c {
+        grid-area: c;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg">
+  <main>
+    <section class="flex flex-col justtify-center px-8 my-20 container md:mx-auto md:w-[50vw]">
+      <div class="bg-white w-full h-auto p-6 rounded-t-lg item-a">
+        <h1 class="font font7 blue text-2xl">Join our community</h1>
+        <h3 class="font font7 yellow text-lg my-4">30-day, hassle-free money back guarantee </h3>
+        <p class="font font4 gray">Gain access to our full library of tutorials along with expert code reviews. Perfect
+          for any developers who are serious about honing their skills.</p>
+      </div>
+      <div class="bluebg w-full h-auto p-6 item-b md:rounded-bl-lg">
+        <h3 class="font font7 gray2 my-2 text-lg">Monthly Subscription</h3>
+        <span class="font font7 text-2xl text-white">$29</span>
+        <span class="text-gray-200 text-sm ml-1 font ">per month</span>
+        <p class="text-md font font4 text-gray-100">Full access for less than $1 a day</p>
+        <button class="yellowbg p-4 mt-8 shadow text-white w-full rounded-lg font font7 ">Sign Up</button>
+      </div>
+      <div class="bg-[#4ABEBD] w-full h-auto p-6 rounded-b-lg md:rounded-bl-none md:rounded-br-lg item-c">
+        <h3 class="font font7 gray2 my-2 text-xl">Why us</h3>
+        <p class="text-gray-200 pr-24 md:pr-12 md:w-[18vw]">Tutorials by industry experts Peer & expert code review Coding exercises Access
+          to our GitHub repos Community forum Flashcard decks New videos every week</p>
+      </div>
+    </section>
+  </main>
+  <!-- <script>
+    alert('This project is part of my personal portfolio. Visit my portfolio at www.dailyreading.ml')
+  </script> -->
+</body>
+
+</html>

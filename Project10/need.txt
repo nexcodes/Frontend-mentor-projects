@@ -1,0 +1,6 @@
+ <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Single Price Grid Component - ProjectsByDailyreadingAdmin</title>
+<script>
+    alert('This project is part of my personal portfolio. Visit my portfolio at www.dailyreading.ml')
+  </script>
